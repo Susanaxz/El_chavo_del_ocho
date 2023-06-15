@@ -1,0 +1,127 @@
+	body {
+		background: url(../img/background.jpg) no-repeat fixed center;
+		background-size: 100% 100%;
+	}
+
+	#colLeft{background: #75C3E7; border-radius: 15px; padding: 15px; text-align: center;}
+	#colRight{background: #75C3E7; border-radius: 15px; padding: 15px; text-align: center;}
+	#colMedium{background: transparent; border-radius: 15px; padding: 15px; text-align: center;}
+	#title{text-align: center; color: white; text-shadow: 2px 2px 2px black; font-size: 4em; background: rgba(128, 128, 128, 0.5)}
+	#NA{text-align: center; color: white; text-shadow: 2px 2px 2px black; font-size: 3em; }
+
+	form {
+		text-align: justify;
+	}
+
+	input[type="text"] {
+		text-align: justify;
+		width: 350px;
+	}
+
+	input[type="email"] {
+		text-align: justify;
+		width: 350px;
+	}
+
+	input[type="number"] {
+		text-align: justify;
+		width: 50px;
+	}
+
+	input[type="number"]#precio {
+		text-align: justify;
+		width: 100px;
+	}
+
+	input#usuario, input#password {
+		width: 120px;
+	}
+
+	label {
+		display: inline-block;
+		width: 250px;
+		font-weight: bold;
+		vertical-align: top;
+	}
+
+	#alerta {
+		display: none;
+		padding: 10px;
+		width: 300px;
+		height: auto;
+		position: absolute;
+		top: 400px;
+		left: 700px;
+		text-align: justify;
+		background-color: #5CB5DF;
+		border: 1px solid blue; 
+		border-radius: 10px;
+		z-index: 9999;
+	}
+
+	div.container {
+		text-align: center; margin: auto;
+		position: relative;
+	}
+
+	th {
+		width: 250px;
+		text-align: center;
+		padding: 5px 10px 5px 10px;
+	}
+
+	td {
+		width: 300px;
+		text-align: justify;
+		padding: 5px 10px 5px 10px;
+	}
+
+	th#ident, td#ident {
+		width: 30px
+	} 
+
+	th#cal, td#cal {
+		width: 60px
+	} 
+
+	th#opt, td#opt {
+		width: 50px
+	} 
+
+	th#est, td#est {
+		width: 70px
+	} 
+
+	th#tipouser, td#tipouser {
+		width: 90px
+	} 
+
+	img#foto {
+		width: 150px;
+		display: none;
+		margin-right:20px;
+	}
+
+	textarea {
+		width:350px; 
+		height:50px
+	}
+
+	legend {
+		font-size: 1em;
+	}
+
+	ul#listausuarios {
+		margin: 0px;
+		padding: 0px;
+	}
+
+	#listausuarios li {
+		text-decoration: none;
+		display: inline;
+	}
+
+	span#firma {
+		font-size: 0.8em;
+		color: grey;
+	}

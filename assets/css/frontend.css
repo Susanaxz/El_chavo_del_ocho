@@ -1,0 +1,249 @@
+	@font-face {
+	    font-family: 'dotted';
+	    src: url(../fonts/BALLSONTHERAMPAGE.ttf) format('truetype');
+	    font-weight: normal;
+	    font-style: normal;
+	}
+
+	body {
+		background: url(../img/background.jpg) no-repeat fixed center;
+		background-size: 100% 100%;
+	}
+
+	#colLeft{background: rgba(117, 195, 131, 0.4); border-radius: 15px; padding: 15px; text-align: center;}
+	#colRight{background: rgba(117, 195, 131, 0.4); border-radius: 15px; padding: 15px; text-align: center;}
+	#title{text-align: center; color: white; text-shadow: 2px 2px 2px black; font-size: 4em; background: rgba(128, 128, 128, 0.5)}
+	#NA{text-align: center; color: black; text-shadow: 2px 2px 2px black; font-size: 3em; }
+
+	div.container {
+		text-align: center; margin: auto;
+		position: relative;
+	}
+
+	th {
+		width: 250px;
+		text-align: center;
+		padding: 5px 10px 5px 10px;
+	}
+
+	td {
+		width: 300px;
+		text-align: justify;
+		padding: 5px 10px 5px 10px;
+	}
+
+	th#ident, td#ident {
+		width: 30px
+	} 
+
+	th#cal, td#cal {
+		width: 60px
+	} 
+
+	th#tipouser, td#tipouser {
+		width: 90px
+	} 
+
+	form {
+		text-align: justify;
+	}
+
+	form#formcarrito {
+		text-align: center;
+		margin: auto;
+	}
+
+	form#borracarrito {
+		text-align: justify;
+		display: inline-block;
+	}
+
+	form#validarcarrito {
+		text-align: center;
+		display: none;
+		margin: auto;
+		vertical-align: top;
+	}
+
+	#generapdf {
+		text-align: center;
+		display: none;
+		margin: auto;
+		font-size: 1.2em;
+		color: white;
+	}
+
+	form#categorias {
+		text-align: center;
+		margin:auto;
+	}
+
+	input[type="text"] {
+		text-align: justify;
+		width: 350px;
+	}
+
+	input[type="email"] {
+		text-align: justify;
+		width: 350px;
+	}
+
+	input#usuario, input#password {
+		width: 120px;
+	}
+
+	label {
+		display: inline-block;
+		width: 250px;
+		font-weight: bold;
+		vertical-align: top;
+	}
+
+	#opciones input {
+		width: 50px;
+		height: 25px;
+		font-size: 0.5em;
+		background-color: transparent;
+		color: white;
+		border: 0px;
+	}
+
+	#opciones span {
+		font-size: 0.5em;
+		color: white;
+	}
+
+	input#contador  {
+		width: 60px;
+		height: 30px;
+		font-size: 1.8em;
+		background-color: transparent;
+		font-family: dotted;
+	}
+
+	#alerta {
+		display: none;
+		padding: 10px;
+		width: 300px;
+		height: auto;
+		position: absolute;
+		top: 40vh;
+		left: 20vw;
+		text-align: justify;
+		background-color: #5CB5DF;
+		border: 1px solid blue; 
+		border-radius: 10px;
+		z-index: 9999;
+	}
+
+	img#foto {
+		width: 150px;
+		display: none;
+		margin-right:20px;
+	}
+
+	textarea {
+		width:350px; 
+		height:250px;
+		text-align: justify;
+		padding: 10px;
+	}
+
+	legend {
+		font-size: 1em;
+	}
+
+	h2, h3 {
+		font-family: dotted;
+	}
+
+	div#secciones {
+		display: inline-block;
+		text-align: center;
+		width: 300px;
+		height: 360px;
+		padding:10px;
+		background: transparent;
+		border: 1px solid blue;
+		margin: 5px 5px 5px 5px;
+		vertical-align: top;
+	}
+
+	div#seccionprod {
+		display: inline-block;
+		text-align: center;
+		width: 300px;
+		height: 400px;
+		padding:10px;
+		background: transparent;
+		border: 1px solid blue;
+		margin: 5px 5px 5px 5px;
+		vertical-align: top;
+	}
+
+	div#prodcarrito {
+		display: block;
+		text-align: justify;
+		width: 900px;
+		height: 100px;
+		padding:10px;
+		background: transparent;
+		border: 1px solid blue;
+		margin: 5px 5px 5px 5px;
+		vertical-align: top;
+	}
+
+	#prodcarrito label {
+		line-height: 80px;
+		vertical-align: top;
+	}
+
+	input#login {
+		display: inline;
+	}
+
+	input#logoff {
+		display: none;
+	}
+
+	input#registro {
+		display: inline;
+	}
+
+	#enlacebackend {
+		display: none;
+	}
+
+	#misdatos {
+		display: none;
+	}
+
+	textarea#noticiasck {
+		height:500px;
+	}
+
+	div#noticias {
+		height:500px;
+		text-align: justify;
+		overflow: auto;
+		/*border: 3px ridge blue;*/
+		padding:10px;
+		background: transparent;
+	}
+
+	form.noticiasck {
+		display: none;
+	}
+
+	div#productos {
+		text-align: center;
+	}
+
+	span#firma {
+		font-size: 0.8em;
+		color: grey;
+	}
+
+	.centrar {text-align: center;}
+	.negrita {font-weight: bold;}
+
